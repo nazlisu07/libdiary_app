@@ -1,0 +1,40 @@
+name: dijital_kutuphane
+description: "LibDiary | Kişisel Dijital Kütüphaneniz"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+# İŞTE HATAYI ÇÖZEN KISIM BURASI (Modern Dart sürümü zorunluluğu)
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Eklediğimiz Paketler
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  image_picker: ^1.0.7
+  share_plus: ^7.2.1
+  intl: ^0.18.1
+  fl_chart: ^0.65.0
+  path_provider: ^2.1.2
+  url_launcher: ^6.2.5
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1 # İkon oluşturucu paket
+
+# İkon paketinin ayarları
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+  remove_alpha_ios: true # iOS'ta arka plan transparanlığını düzeltir
+
+flutter:
+  uses-material-design: true
