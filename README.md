@@ -1,17 +1,22 @@
-# dijital_kutuphane
+# LibDiary - Kişisel Dijital Kütüphaneniz
 
-A new Flutter project.
+LibDiary, kullanıcıların okuma alışkanlıklarını takip etmelerini, favori kitap alıntılarını kaydetmelerini ve bu alıntıları 20 farklı özel tasarımlı kart ile sosyal medyada paylaşmalarını sağlayan modern bir mobil uygulamadır.
 
-## Getting Started
+## Öne Çıkan Özellikler
+* **Kapsamlı Kitap Takibi:** Okunacak, okunuyor ve okundu durumlarına göre kitapları kategorize etme.
+* **Vibe (Duygu) Sistemi:** Her kitaba fantastikten bilim kurguya kadar uzanan özel türler ve o kitaba ait müzik listesi (Playlist) ekleyebilme.
+* **Akıllı Alıntı Stüdyosu:** Kaydedilen alıntıları ve "Bu Ay Okuduklarım" özetlerini yüksek çözünürlüklü görseller (PNG) halinde Instagram, WhatsApp gibi ağlarda paylaşabilme.
+* **Dinamik Tema (Gece Modu):** Göz yormayan mürdüm ve gece grisi tonlarıyla akıllı tema yönetimi.
+* **İstatistikler ve Grafikler:** Fl_chart destekli okuma türü analizleri ve ilerleme takibi.
 
-This project is a starting point for a Flutter application.
+## Kullanılan Teknolojiler
+* **Framework:** Flutter / Dart
+* **Veritabanı:** SQLite (Yerel Cihaz Hafızası)
+* **Paketler:** `share_plus` (Sosyal Medya), `fl_chart` (Grafikler), `image_picker` (Kapak Fotoğrafları), `shared_preferences` (Kullanıcı Oturum Yönetimi)
 
-A few resources to get you started if this is your first Flutter project:
+## 👩‍💻Geliştirici Ekip
+Bu proje, Fırat Üniversitesi öğrencileri tarafından geliştirilmiştir:
+* **Nazlısu Başak** (Arayüz Tasarımı, UI/UX, Flutter Entegrasyonu)
+* **Beren Memişoğlu** (SQLite Veritabanı Mimarisi, Arka Plan Algoritmaları)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
