@@ -19,4 +19,4 @@ Bu proje, Fırat Üniversitesi öğrencileri tarafından geliştirilmiştir:
 * **Nazlısu Başak** (Arayüz Tasarımı, UI/UX, Flutter Entegrasyonu)
 * **Beren Memişoğlu** (SQLite Veritabanı Mimarisi, Arka Plan Algoritmaları)
 
----
+----
